@@ -1,0 +1,9 @@
+Pods/
+Stafood/xcuserdata/*
+Stafood/project.xcworkspace/xcuserdata/*
+Stafood.xcworkspace/xcuserdata/*
+Stafood.xcworkspace/xcuserdata/eslammohamed.xcuserdatad/UserInterfaceState.xcuserstate
+
+.DS_Store
+Stafood/.DS_Store
+Stafood/Controllers/.DS_Store

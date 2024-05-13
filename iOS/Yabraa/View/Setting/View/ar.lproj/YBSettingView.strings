@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Setting "; ObjectID = "1Zy-jl-Qby"; */
+"1Zy-jl-Qby.text" = "الاعدادات ";
+
+/* Class = "UIButton"; normalTitle = "عربي"; ObjectID = "VAj-jR-uuf"; */
+"VAj-jR-uuf.normalTitle" = "عربي";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "gDh-lk-5u8"; */
+"gDh-lk-5u8.normalTitle" = "English";
+
+/* Class = "UIButton"; normalTitle = "Log out"; ObjectID = "lBG-IF-rgB"; */
+"Y7i-im-kYg.normalTitle" = "تعديل ";
+"lBG-IF-rgB.normalTitle" = "تسجيل الخروج";
+"aXQ-Zw-6zH.text" = "حسابي";
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyPaymentsViewController" customModule="Yabraa" customModuleProvider="target">
+            <connections>
+                <outlet property="backBtn" destination="3zv-YL-eXE" id="4CP-1C-DPc"/>
+                <outlet property="paymentsTableView" destination="LNa-t5-1GI" id="eyj-P3-Tuc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4OC-CS-Wjv">
+                    <rect key="frame" x="0.0" y="59" width="393" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zv-YL-eXE">
+                            <rect key="frame" x="7" y="5" width="30" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="5Ly-nA-ucu"/>
+                                <constraint firstAttribute="width" constant="30" id="Oqs-7a-E4B"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="backEN"/>
+                        </button>
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Payments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AuW-D9-orP">
+                            <rect key="frame" x="136" y="13.666666666666673" width="121.33333333333331" height="22.666666666666671"/>
+                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                            <color key="textColor" red="0.18823529410000001" green="0.18039215689999999" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="localizedTitle" value="My Payments"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92156862750000001" green="0.94509803920000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="AGp-Rg-CIu"/>
+                        <constraint firstItem="AuW-D9-orP" firstAttribute="centerY" secondItem="4OC-CS-Wjv" secondAttribute="centerY" id="IMk-BW-jQA"/>
+                        <constraint firstItem="AuW-D9-orP" firstAttribute="centerX" secondItem="4OC-CS-Wjv" secondAttribute="centerX" id="JYM-Dq-KI9"/>
+                        <constraint firstItem="3zv-YL-eXE" firstAttribute="leading" secondItem="4OC-CS-Wjv" secondAttribute="leading" constant="7" id="Oju-wc-krC"/>
+                        <constraint firstItem="3zv-YL-eXE" firstAttribute="centerY" secondItem="4OC-CS-Wjv" secondAttribute="centerY" id="xcd-5k-3Vu"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="LNa-t5-1GI">
+                    <rect key="frame" x="10" y="109" width="373" height="709"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="4OC-CS-Wjv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5a7-SG-CiE"/>
+                <constraint firstItem="LNa-t5-1GI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="Y4o-rV-e7c"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4OC-CS-Wjv" secondAttribute="trailing" id="gXw-LF-tVY"/>
+                <constraint firstItem="4OC-CS-Wjv" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="guc-Tc-3Uv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LNa-t5-1GI" secondAttribute="trailing" constant="10" id="jRy-qr-iAI"/>
+                <constraint firstItem="LNa-t5-1GI" firstAttribute="top" secondItem="4OC-CS-Wjv" secondAttribute="bottom" id="ttL-Fd-i19"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="LNa-t5-1GI" secondAttribute="bottom" id="ynk-c8-oKh"/>
+            </constraints>
+            <point key="canvasLocation" x="-30" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backEN" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DiseasesViewController" customModule="Yabraa" customModuleProvider="target">
+            <connections>
+                <outlet property="backBtn" destination="jkX-Ib-1W0" id="GYz-FS-dUR"/>
+                <outlet property="diseaseName" destination="lye-oQ-Q6Q" id="n1b-tr-2ss"/>
+                <outlet property="diseasesTableView" destination="ceg-yG-Od9" id="A3d-Zp-zgj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ceg-yG-Od9">
+                    <rect key="frame" x="10" y="119" width="373" height="689"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gaD-tO-3tq">
+                    <rect key="frame" x="0.0" y="59" width="393" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkX-Ib-1W0">
+                            <rect key="frame" x="7" y="5" width="30" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="KbN-ac-WPT"/>
+                                <constraint firstAttribute="height" constant="40" id="bqG-2M-Rah"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="backEN"/>
+                        </button>
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Patient" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lye-oQ-Q6Q">
+                            <rect key="frame" x="134.66666666666666" y="13.666666666666673" width="123.66666666666666" height="22.666666666666671"/>
+                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                            <color key="textColor" red="0.18823529410000001" green="0.18039215689999999" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92156862750000001" green="0.94509803920000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="lye-oQ-Q6Q" firstAttribute="centerX" secondItem="gaD-tO-3tq" secondAttribute="centerX" id="4sr-kd-GZ4"/>
+                        <constraint firstItem="lye-oQ-Q6Q" firstAttribute="centerY" secondItem="gaD-tO-3tq" secondAttribute="centerY" id="L40-ko-nl2"/>
+                        <constraint firstItem="jkX-Ib-1W0" firstAttribute="centerY" secondItem="gaD-tO-3tq" secondAttribute="centerY" id="LJC-EB-Far"/>
+                        <constraint firstItem="jkX-Ib-1W0" firstAttribute="leading" secondItem="gaD-tO-3tq" secondAttribute="leading" constant="7" id="dZc-fM-nQl"/>
+                        <constraint firstAttribute="height" constant="50" id="lLF-Wo-x1m"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="gaD-tO-3tq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ImO-SN-hGf"/>
+                <constraint firstItem="gaD-tO-3tq" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Rof-qZ-yZn"/>
+                <constraint firstAttribute="trailing" secondItem="gaD-tO-3tq" secondAttribute="trailing" id="UsY-xc-40k"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ceg-yG-Od9" secondAttribute="bottom" constant="10" id="a1s-ux-iWM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ceg-yG-Od9" secondAttribute="trailing" constant="10" id="iMZ-z0-kyM"/>
+                <constraint firstItem="ceg-yG-Od9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="psX-Le-U7t"/>
+                <constraint firstItem="ceg-yG-Od9" firstAttribute="top" secondItem="gaD-tO-3tq" secondAttribute="bottom" constant="10" id="slI-BR-Iho"/>
+            </constraints>
+            <point key="canvasLocation" x="85" y="-1"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backEN" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "TY9-ji-ABM"; */
+"TY9-ji-ABM.normalTitle" = "إضافه";
+
+/* Class = "UILabel"; text = "Select Patient"; ObjectID = "ZMb-S1-XiI"; */
+"ZMb-S1-XiI.text" = "Select Patient";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "alT-8E-4WH"; */
+"alT-8E-4WH.normalTitle" = "حذف";

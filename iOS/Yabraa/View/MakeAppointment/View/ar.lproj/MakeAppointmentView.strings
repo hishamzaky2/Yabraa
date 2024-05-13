@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = " Confirming Appointments "; ObjectID = "UOB-Tb-fhs"; */
+"UOB-Tb-fhs.normalTitle" = " تاكيد حجز ";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "VF3-eU-xJy"; */
+"VF3-eU-xJy.normalTitle" = "إلغاء";
+
+/* Class = "UILabel"; text = "Physical Therapy"; ObjectID = "xbm-zM-uy1"; */
+"xbm-zM-uy1.text" = "تفاصيل الخدمة";

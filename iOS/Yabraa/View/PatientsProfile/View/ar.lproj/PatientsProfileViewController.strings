@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "Select Patient"; ObjectID = "PxZ-d4-naY"; */
+"PxZ-d4-naY.text" = "اختيار المريض";
+
+/* Class = "UILabel"; text = "Please Select the patient to whom you want to add instructions regarding allergies and chronic disease"; ObjectID = "ZQI-gj-vJe"; */
+"ZQI-gj-vJe.text" = "الرجاء اختيار المريض الذي تريد إضافة تعليمات له بخصوص الحساسية والأمراض المزمنة";

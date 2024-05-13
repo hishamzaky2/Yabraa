@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ServicesFilterCell" id="gTV-IL-0wX" customClass="ServicesFilterCell" customModule="Yabraa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="271" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="271" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ni-8l-JKK">
+                        <rect key="frame" x="0.0" y="0.0" width="271" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IV treatment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIM-Y2-woD">
+                                <rect key="frame" x="8" y="31" width="220" height="18"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36e-9F-TlP">
+                                <rect key="frame" x="238" y="29" width="25" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="75b-7Z-hD2"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="blackClose"/>
+                                <connections>
+                                    <action selector="DeSelectTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="MVk-fb-aKI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="primaryColor"/>
+                        <constraints>
+                            <constraint firstItem="ZIM-Y2-woD" firstAttribute="centerY" secondItem="3ni-8l-JKK" secondAttribute="centerY" id="KvP-hv-Fd6"/>
+                            <constraint firstAttribute="trailing" secondItem="36e-9F-TlP" secondAttribute="trailing" constant="8" id="OEp-Dr-VVj"/>
+                            <constraint firstItem="36e-9F-TlP" firstAttribute="centerY" secondItem="3ni-8l-JKK" secondAttribute="centerY" id="XiE-jb-1qM"/>
+                            <constraint firstItem="ZIM-Y2-woD" firstAttribute="leading" secondItem="3ni-8l-JKK" secondAttribute="leading" constant="8" id="gOW-BA-Exl"/>
+                            <constraint firstItem="36e-9F-TlP" firstAttribute="leading" secondItem="ZIM-Y2-woD" secondAttribute="trailing" constant="10" id="nGu-YK-GJW"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3ni-8l-JKK" secondAttribute="trailing" id="DgU-lP-eBg"/>
+                <constraint firstItem="3ni-8l-JKK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="GHw-RD-yoZ"/>
+                <constraint firstAttribute="bottom" secondItem="3ni-8l-JKK" secondAttribute="bottom" id="IK1-mW-usX"/>
+                <constraint firstItem="3ni-8l-JKK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fyL-8d-jXP"/>
+            </constraints>
+            <size key="customSize" width="271" height="80"/>
+            <connections>
+                <outlet property="closeBTN" destination="36e-9F-TlP" id="Yc2-pU-jgT"/>
+                <outlet property="containerView" destination="3ni-8l-JKK" id="6QO-c8-inY"/>
+                <outlet property="filterTitle" destination="ZIM-Y2-woD" id="xGL-2M-b85"/>
+            </connections>
+            <point key="canvasLocation" x="96.946564885496173" y="30.281690140845072"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="blackClose" width="7.3333334922790527" height="7.3333334922790527"/>
+        <namedColor name="primaryColor">
+            <color red="0.92199999094009399" green="0.94499999284744263" blue="0.9570000171661377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

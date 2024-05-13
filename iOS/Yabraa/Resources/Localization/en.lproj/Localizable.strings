@@ -1,0 +1,82 @@
+/* 
+  Localizable.strings
+  Yabraa
+
+  Created by Hamada Ragab on 26/02/2023.
+  
+*/
+"Book the best doctor arround you" = "Book the best doctor arround you";
+"More than 500+ specialist doctors are ready to serve you " = "More than 500+ specialist doctors are ready to serve you ";
+"Get Follow up for your appointment" =  "Get Follow up for your appointment" ;
+"Manage appointments with your doctor, and get accurate information" = "Manage appointments with your doctor, and get accurate information";
+"Easier with a secure system" =  "Easier with a secure system";
+"We prioritize convenience and safety for you and your doctor" = "We prioritize convenience and safety for you and your doctor";
+"skip" = "Skip";
+"First Name Must Contain At Least 3 Charters" = "First Name Must Contain At Least 3 Charters";
+"Last Name Must Contain At Least 3 Charters" = "Last Name Must Contain At Least 3 Charters";
+"Correct" = "Correct ✅";
+"phone number is Incorrect" = "Phone Number Is Incorrect";
+"Iqama Number Must Be Equal 6 Digits" = "Iqama Number Must Be Equal 6 Digits";
+"Birth Date Not Valid" = "Birth Date Not Valid";
+"Email Address Not Valid" = "Email Address Not Valid";
+"Password Must Be Greater Than 6 Digits" = "Password Must Be Greater Than 6 Digits";
+"account registered successfully" = "Account Registered Successfully";
+"Select Patient" = "Select Patient";
+"Select Date" = "Select Date & time";
+"Patient name and Date are required" = "Patient Name And Date Are Required";
+
+"payment Done" = "payment Process Done Successfully";
+"SAR" = "SAR";
+"Password Not Identical" = "Password and confirmed password Not Identical";
+"Search For Address" = "Search For Address";
+"beAttenion" = "Be Attenion !";
+"myAppointments" = "My Appointments";
+"payments" = "Payments";
+"deleteAccount" = "Delete Account";
+"addPatient" = "Add Patient";
+"contactUs" = "Contact Us";
+"Are you sure you want to log out ?" = "Are you sure you want to log out ?";
+"account updated successfully" = "Account Updated Successfully";
+"account Deleted Succesfully !" = "Account Deleted Succesfully !";
+"Are you sure you want to delete Your account ?" = "Are you sure you want to delete Your account ?";
+"package Updated Successfully" = "Data Updated Successfully";
+"please select payment method" = "Please select payment method";
+"Visa" = "Visa";
+"Mada" = "Mada";
+"Master" = "Master";
+"Stc" = "Stc";
+"Apple" = "Apple";
+"medicalProfile" = "Medical Profile";
+"Nationality" = "Nationality *";
+"First Name" = "First Name *";
+"last Name" = "last Name *";
+"Phone" = "5xxxxx";
+"Password" = "Password *";
+"appointment canceled successfully" = "Appointment Canceled Successfully";
+"search" = "Search";
+"Update" = "Update";
+"Patient deleted Succssfully" = "Patient deleted Succssfully";
+"Make an Appointment" = "Make an Appointment";
+"appointmentDone" = "Appointment Booked";
+"Payment" = "Payment";
+"Edit Account" = "Edit Account";
+"contactUsInfo" = "
+The goal is to organize and facilitate the home care process for individuals in need of special care. This application provides a wide range of services and features designed to meet the needs of patients and simplify the care experience for families and caregivers.
+
+Yibra Home Care Center's application features an intuitive and user-friendly interface, allowing users to navigate easily and access available services. The application enables families to access comprehensive information about the center's services and previous user ratings. Families can directly book visits and arrange the required services through the application.
+
+For families, the app helps identify the patient's needs and schedule the required home services, including medical care such as treatments, medications, and therapeutic exercises. The application also allows setting reminders and notifications to prompt users about important appointments and daily tasks.
+
+The application fosters communication between families and healthcare providers, allowing families to ask questions, express concerns, and provide feedback easily and quickly. The app contributes to enhancing communication and interaction between the center and families, promoting trust and comfort in the care process.
+
+Comprehensive and reliable, the application aims to organize and facilitate home care. It contributes to improving the quality of life for patients and provides comprehensive support for families. Through the use of this application, patients and their families can rely on high-quality care and benefit from an integrated and comfortable care experience in their homes.";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+

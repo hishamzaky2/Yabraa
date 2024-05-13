@@ -1,0 +1,30 @@
+
+/* Class = "UITextField"; placeholder = "+966"; ObjectID = "5UY-CS-FeA"; */
+"5UY-CS-FeA.placeholder" = "+966";
+
+/* Class = "UIButton"; normalTitle = "Log In As Guest"; ObjectID = "6BP-3y-Vpo"; */
+"6BP-3y-Vpo.normalTitle" = "Log In As Guest";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "C4I-ce-pRy"; */
+"C4I-ce-pRy.normalTitle" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "IFk-Cb-tIv"; */
+"IFk-Cb-tIv.normalTitle" = "Log In";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "KAC-kX-j7h"; */
+"KAC-kX-j7h.text" = "Phone";
+
+/* Class = "UILabel"; text = "Login with account"; ObjectID = "RGv-Og-tZv"; */
+"RGv-Og-tZv.text" = "Login with account";
+
+/* Class = "UITextField"; placeholder = "5XXXXXX"; ObjectID = "bs6-cs-yI8"; */
+"bs6-cs-yI8.placeholder" = "5XXXXXX";
+"Fqt-na-JDZ.placeholder" = "Password";
+/* Class = "UIButton"; normalTitle = "Forgot password"; ObjectID = "g2g-Jw-bIv"; */
+"g2g-Jw-bIv.normalTitle" = "Forgot password";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "gun-Rk-aNj"; */
+"gun-Rk-aNj.text" = "Password";
+
+/* Class = "UILabel"; text = "Don’t have an account yet?"; ObjectID = "sWP-1a-RJf"; */
+"sWP-1a-RJf.text" = "Don’t have an account yet?";

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "9qa-WY-pKo"; */
+"9qa-WY-pKo.normalTitle" = "أبدا";
+
+/* Class = "UILabel"; text = "Your account can be used, find a doctor and make an appointment!"; ObjectID = "AhI-Ay-apz"; */
+"AhI-Ay-apz.text" = "يمكن استخدام حسابك والعثور على طبيب وتحديد موعد!";
+
+/* Class = "UILabel"; text = "Successfully Create Account"; ObjectID = "QJY-5Q-Aba"; */
+"QJY-5Q-Aba.text" = "تم إنشاء الحساب بنجاح";

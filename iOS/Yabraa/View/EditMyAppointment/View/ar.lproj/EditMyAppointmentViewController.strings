@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "CRO-Mx-OPU"; */
+"CRO-Mx-OPU.normalTitle" = "تعديل";
+
+/* Class = "UILabel"; text = "Physiotherapy for Children A"; ObjectID = "IXW-3g-0TZ"; */
+"IXW-3g-0TZ.text" = "Physiotherapy for Children A";
+
+/* Class = "UILabel"; text = "Select Patient"; ObjectID = "J9z-jR-p35"; */
+"J9z-jR-p35.text" = "Select Patient";
+
+/* Class = "UILabel"; text = "Add Note’s (Optional)"; ObjectID = "TA2-fv-mF6"; */
+"TA2-fv-mF6.text" = "إضافة ملاحظات (أختياري)";
+
+/* Class = "UILabel"; text = "350 SAR"; ObjectID = "V0L-1P-pb4"; */
+"V0L-1P-pb4.text" = "350 SAR";
+
+/* Class = "UILabel"; text = "Physical Therapy"; ObjectID = "Va6-5m-Ox8"; */
+"Va6-5m-Ox8.text" = "Physical Therapy";
+
+/* Class = "UILabel"; text = "Select Date"; ObjectID = "coV-oj-oq2"; */
+"coV-oj-oq2.text" = "Select Date";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "tdy-TZ-4cx"; */
+"tdy-TZ-4cx.normalTitle" = "حفظ";

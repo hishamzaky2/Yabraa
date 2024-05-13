@@ -1,0 +1,175 @@
+/* 
+  Localizable.strings
+  Yabraa
+
+  Created by Hamada Ragab on 26/02/2023.
+  
+*/
+"Book the best doctor arround you" = "احجز أفضل طبيب حولك";
+"More than 500+ specialist doctors are ready to serve you " = "أكثر من 500 طبيب متخصص على استعداد لخدمتك";
+"Get Follow up for your appointment" = "احصل على متابعة لموعدك";
+"Manage appointments with your doctor, and get accurate information" = "إدارة المواعيد مع طبيبك ، والحصول على معلومات دقيقة";
+"Easier with a secure system" = "أسهل مع نظام آمن";
+"We prioritize convenience and safety for you and your doctor" = "نحن نعطي الأولوية للراحة والأمان لك ولطبيبك";
+"skip" = "تخطئ";
+"First Name Must Contain At Least 3 Charters" = "يجب أن يحتوي الاسم على 3 حروف على الأقل";
+"Last Name Must Contain At Least 3 Charters" = "يجب أن يحتوي اسم العائلة على 3 حروف على الأقل";
+"Correct" = "صحيح ✅";
+"phone number is Incorrect" = "رقم الهاتف غير صحيح";
+"Iqama Number Must Be Equal 6 Digits" = "يجب أن يكون رقم الإقامة 6 أرقام";
+"Birth Date Not Valid" = "تاريخ غير صحيح";
+"Email Address Not Valid" = "البريد الإالكتروني غير صحيح";
+"Password Must Be Greater Than 6 Digits" = "كلمة المرور يجب ان تكون اكبر من 6 حروف";
+"account registered successfully" = "تم تسجيل الحساب بنجاح";
+"welcome Back" = "مرحبا الرجاء تسجيل الدخول اولا ";
+"welcome!" = "مرحبا ";
+"First Name" = "الاسم الأول *";
+"last Name" = "الاسم الأخير *";
+"Phone" = "5xxxxx";
+"Password" = "كلمة المرور *";
+"BirthDay" = "تاريخ الميلاد *";
+"Nationality" = "الجنسية *";
+"ID or Iqama or Passport" = "رقم الهوية او جواز السفر";
+"Email" = "البريد الالكتروني";
+"Saerch" = "بحث";
+"Done" = "تم";
+"Password Must Be Greater Than Or Equal 6 Characters" = "كلمة المرور يجب ان تكون اكبر من ٦ حروف او اكتر";
+"All Fileds Required" = "جميع الحقول مطلوبة";
+"Phone Number Is Incorrect" = "رقم الجوال غير صحيح";
+"Birth day Not Selected" = "تاريخ الميلاد غير صحيح";
+"Gender Not Selected" = "لم يتم تحديد النوع";
+"Country not Selected" = "لم يتم اختيار البلد ";
+"Iqama Number Incorrect" = "رقم الاقامة غير صحيح";
+"Email Not Valid" = "البريد الالكتروني غير صحيح";
+"Select Patient" = "اسم المريض ";
+"Select Date" = "إختر التاريخ والوقت";
+"Patient name and Date are required" = "مطلوب اسم المريض والتاريخ";
+"payment Done" = "تمت عملية الدفع بنجاح";
+"SAR" = "ريال";
+"Password Not Identical" = "كلمتا المرور غير متطابقتين";
+"Search For Address" = "ابحث عن العنوان";
+"beAttenion" = "إنتبه !";
+"myAppointments" = "المواعيد الخاصة بي";
+"payments" = "المدفوعات";
+"deleteAccount" = "حذف الحساب";
+"addPatient" = "إضافة مريض";
+"contactUs" = "إتصل بنا";
+"Are you sure you want to log out ?" = "هل أنت متأكد أنك تريد تسجيل الخروج ؟";
+"account updated successfully" = "تم تحديث البيانات بنجاح";
+"account Deleted Succesfully !" = "تم حذف الحساب بنجاح";
+"Are you sure you want to delete Your account ?" = "هل تريد حذف حسابك الشخصي ؟";
+"package Updated Successfully" = "تم تعديل البيانات بنجاح";
+"please select payment method" = "الرجاء تحديد طريقة الدفع";
+"Visa" = "فيزا";
+"Mada" = "مدي";
+"Master" = "ماستر";
+"Stc" = "أس تي سي";
+"Apple" = "آبل";
+"medicalProfile" = "الملف الطبي";
+"Allergies" = "الحساسية";
+"Chronic Diseases" = "الأمراض المزمنة";
+"Current Medications" = "الأدوية الحالية";
+"Injuries" = "إصابات";
+"Past Medications" = "الأدوية الماضية";
+"Surgeries" = "العمليات الجراحية";
+"Your password has been changed successfully. Please go to Login to log in again" = "تم تغيير كلمة السر بنجاح من فضك اذهب الي تسجيل الدخول لتسجيل الدخول مرة اخري";
+"We're sorry, but your payment transaction has failed.try again " = "عذرًا، لقد فشلت معاملة الدفع الخاصة بك. حاول مرة أخرى ";
+"Cancel Appointment" = "إلغاء الموعد";
+"appointment canceled successfully" = "تم إلغاء الموعد بنجاح";
+"Note: the appointment can not be canceled 24 hours before" = "ملاحظة: لا يمكن إلغاء الموعد قبل 24 ساعة";
+"For More Details please contacts:" = "لمزيد من التفاصيل يرجى الاتصال:";
+"Cancel" = "إلغاء";
+"No" = "لا";
+"Yes" = "نعم";
+"Ok" = "تم";
+"search" = "بحث";
+"Update" = "تعديل";
+"Edit" = "تعديل";
+"Patient deleted Succssfully" = "تم مسح المريض بنجاح";
+"Home Visit" = "زيارات منزلية";
+"Remote Visit" = "زيارة افتراضية";
+"My Account" = "حسابي";
+"Contact us" = "اتصل بنا";
+"Add" = "إضافة";
+"Delete" = "حذف";
+"Please Select the patient to whom you want to add instructions regarding allergies and chronic disease" = "الرجاء اختيار المريض الذي تريد إضافة تعليمات له بخصوص الحساسية والأمراض المزمنة";
+"Select Patient" = "اختيار المريض";
+"Pay" = "ادفع";
+"Do You Want to edit the location ? " = "هل تريد تعديل الموقع؟";
+"Edit Location" = "تعديل الموقع ";
+"Edit Current Info" = "تعديل البيانات";
+"Save" = "حفظ";
+"Add Note’s (Optional)" = "إضافة ملاحظات (أختياري)";
+"My Payments" = "مدفوعاتي";
+"My Appointments" = "المواعيد";
+"Add Patient" = "إضافة مريض";
+"Name" = "الأسم";
+"Birth Day" = "تاريخ الميلاد";
+"Sex :" = "النوع :";
+"Male :" = "ذكر : ";
+"Female :" = "أنثي : ";
+"Update" = "تعديل";
+"Confirm an Appointment" = " تاكيد حجز ";
+"Description" = "وصف الخدمة";
+"Instruction" = "إرشادات";
+"Confirm Appointment" = " حجز موعد  ";
+"Total Fees" = "إجمالي الرسوم";
+"Read More" = "أقرا المزيد";
+"Clear All" = "مسح الفلتر";
+"Payment" = "الدفع";
+"Total Price" = "الأجمالي";
+"confirm " = "";
+"New Appointment" = "موعد جديد";
+"Choose an available schedule, Appointment can only be made this month" = "اختر من الجدول الزمني : حتي ٣٠ يوم";
+"Choose Day" = "اختر اليوم.";
+"Choose Time" = "أختر الوقت ";
+"Confirming Date And Time" = "تأكيد التاريخ والوقت";
+"Log out" = "تسجيل الخروج";
+"Successfully Create Account" = "تم إنشاء الحساب بنجاح";
+"Your account can be used, find a doctor and make an appointment!" = "يمكن استخدام حسابك والعثور على طبيب وتحديد موعد!";
+"Start" = "أبدا";
+"Create Password" = "إنشاء كلمة مرور";
+"The password must consist of 6 characters with a combination of letters and number." = "كلمة المرور يجب ان تكون اكبر من 6 حروف";
+"Confirm Password" = "تأكيد";
+"OTP Verification" = "التحقق من رمز OTP";
+"please check your messages to see the verification code" = "يرجى التحقق من رسائلك لرؤية رمز التحقق";
+"OTC Code" = "رمز التحقق";
+"Verifiy" =  "تحقق";
+"Send code reload in" = "إرسال الكود في خلال";
+"Forgot Password" = "نسيت كلمة المرور";
+"Enter Phone number to reset your password " = "أدخل رقم الهاتف لإعادة تعيين كلمة المرور الخاصة بك ";
+"Phone number" = " رقم الهاتف";
+"Reset Password" = "إعادة تعيين كلمة المرور";
+"Register" = "تسجيل";
+"More than 500+ specialist doctors are ready to serve you." = "أكثر من ٥٠٠ طبيب متخصص مستعدون لخدمتك .";
+"Log In" = "تسجيل الدخول";
+"Don’t have an account yet?" = "ليس لديك حساب ؟";
+"Make an Appointment" = "حجز موعد";
+"appointmentDone" = "تم الحجز";
+"Payment" = "الدفع";
+"Edit Account" = "تعديل الحساب";
+"Add New Patient" = "إضافة مريض جديد ";
+"New Patient added Succssfully" = "تمت إضافة مريض جديد بنجاح";
+"Patient updated Succssfully" = "تم تحديث بيانات المريض بنجاح";
+"Patient deleted Succssfully" = "تم حذف المريض بنجاح";
+"contactUsInfo" = "
+يهدف إلى تنظيم وتسهيل عملية الرعاية المنزلية للأفراد الذين يحتاجون إلى رعاية خاصة. يوفر هذا التطبيق مجموعة واسعة من الخدمات والميزات المصممة لتلبية احتياجات المرضى وتسهيل تجربة الرعاية للعائلات والمقدمين للرعاية.
+
+يتميز تطبيق مركز يبرأ للرعاية المنزلية بواجهة مستخدم بديهية وسهلة الاستخدام، مما يسمح للمستخدمين بالتنقل بسهولة والوصول إلى الخدمات المتاحة. يتيح التطبيق للعائلات الاطلاع على معلومات شاملة حول الخدمات التي يقدمها المركز وتقييمات المستخدمين السابقين. يمكن للعائلات الحجز مباشرة من خلال التطبيق وترتيب الزيارات والخدمات المطلوبة
+للعائلات تحديد احتياجات المريض وترتيب جدول زمني للخدمات المنزلية المطلوبة. يشمل ذلك الرعاية الطبية، مثل العلاجات والأدوية والتمارين العلاجية، يتيح التطبيق أيضًا إمكانية تعيين التنبيهات والإشعارات لتذكير المستخدمين بالمواعيد المهمة والمهام اليومية.
+
+بين العائلات والأطباء ، حيث يمكن للعائلات طرح الأسئلة والمخاوف وتقديم الملاحظات بسهولة وسرعة. يساعد التطبيق على تعزيز التواصل والتفاعل بين المركز والعائلات، ويعزز الثقة والارتياح في عملية الرعاية
+شاملاً وموثوقًا لتنظيم وتسهيل الرعاية المنزلية. يساعد في تحسين جودة الحياة للمرضى وتقديم دعم شامل للعائلات. من خلال استخدام هذا التطبيق، يمكن للمرضى وعائلاتهم الاعتماد على رعاية عالية الجودة والاستفادة من تجربة رعاية متكاملة ومريحة في منزلهم";
+"This service is under development" = "هذه الخدمة قيد التطوير ";
+"and you will be able to use it soon" = "وستتمكن من استخدامها قريباً";
+"For More Information" = "لمزيد من التفاصيل والتعليمات ";
+"prescription" = "الوصفة الطبية";
+"Files" = "الملفات";
+"Download" = "تنزيل";
+"Date Created" = "تاريخ الإنشاء";
+"There are no files or medical instructions" = "لا توجد ملفات او إرشادات طبية";
+
+"Notifications" = "الإشعارات";
+"Num # " = "رقم# ";
+
+"Send code after" = "إرسال الكود في خلال";

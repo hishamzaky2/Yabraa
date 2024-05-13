@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Urbanist-Regular.ttf">
+            <string>Urbanist-Regular</string>
+        </array>
+        <array key="Urbanist-SemiBold.ttf">
+            <string>Urbanist-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnbordingDataCell" id="gTV-IL-0wX" customClass="OnbordingDataCell" customModule="Yabraa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="291" height="670"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="291" height="670"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NcP-dr-eVz">
+                        <rect key="frame" x="0.0" y="0.0" width="291" height="670"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ncm-eI-s3T">
+                                <rect key="frame" x="20" y="10" width="251" height="650"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bQZ-pp-ICb">
+                                        <rect key="frame" x="0.0" y="0.0" width="251" height="301.33333333333331"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="bQZ-pp-ICb" secondAttribute="height" multiplier="1:1.2" id="sPE-sH-n7i"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="GJ1-Mn-qAN">
+                                        <rect key="frame" x="0.0" y="321.33333333333326" width="251" height="328.66666666666674"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Book the best doctor arround you" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3f1-Q7-lyI">
+                                                <rect key="frame" x="0.0" y="0.0" width="251" height="45.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="Urbanist-SemiBold" family="Urbanist" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More than 500+ specialist doctors are ready to serve you " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="as2-QG-uJI">
+                                                <rect key="frame" x="0.0" y="60.666666666666686" width="251" height="268"/>
+                                                <fontDescription key="fontDescription" name="Urbanist-Regular" family="Urbanist" pointSize="16"/>
+                                                <color key="textColor" name="TextGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ncm-eI-s3T" firstAttribute="leading" secondItem="NcP-dr-eVz" secondAttribute="leading" constant="20" id="4Yh-iU-Ukw"/>
+                            <constraint firstAttribute="bottom" secondItem="Ncm-eI-s3T" secondAttribute="bottom" constant="10" id="5RU-dk-z49"/>
+                            <constraint firstAttribute="trailing" secondItem="Ncm-eI-s3T" secondAttribute="trailing" constant="20" id="6qC-Ez-qc8"/>
+                            <constraint firstItem="Ncm-eI-s3T" firstAttribute="top" secondItem="NcP-dr-eVz" secondAttribute="top" constant="10" id="qTd-zm-LYG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="NcP-dr-eVz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="hig-hI-nYj"/>
+                <constraint firstItem="NcP-dr-eVz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="lJn-x7-Wb6"/>
+                <constraint firstAttribute="trailing" secondItem="NcP-dr-eVz" secondAttribute="trailing" id="vvv-5n-3CT"/>
+                <constraint firstAttribute="bottom" secondItem="NcP-dr-eVz" secondAttribute="bottom" id="ycq-Hz-QIY"/>
+            </constraints>
+            <size key="customSize" width="291" height="670"/>
+            <connections>
+                <outlet property="descriptionData" destination="as2-QG-uJI" id="Fm6-2F-eR7"/>
+                <outlet property="logoImage" destination="bQZ-pp-ICb" id="0dK-dc-Ss7"/>
+                <outlet property="title" destination="3f1-Q7-lyI" id="60A-nj-sVL"/>
+            </connections>
+            <point key="canvasLocation" x="92.36641221374046" y="196.47887323943664"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="TextGrayColor">
+            <color red="0.44705882352941173" green="0.47843137254901957" blue="0.51372549019607838" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

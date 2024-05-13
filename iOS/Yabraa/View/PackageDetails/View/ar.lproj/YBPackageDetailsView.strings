@@ -1,0 +1,25 @@
+
+/* Class = "UILabel"; text = "Instruction"; ObjectID = "AnW-83-LCb"; */
+"AnW-83-LCb.text" = "إرشادات";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GYX-U5-FCK"; */
+"GYX-U5-FCK.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "MJB-nK-KPN"; */
+"MJB-nK-KPN.normalTitle" = "إلغاء";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Q00-ga-bhe"; */
+"Q00-ga-bhe.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = " Confirming Appointments "; ObjectID = "U9R-hX-2c8"; */
+"U9R-hX-2c8.normalTitle" = " حجز موعد  ";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "V5y-Kc-5ep"; */
+"V5y-Kc-5ep.text" = "وصف الخدمات";
+//"cD6-ef-9O5.text" = "وصف الخدمات";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VXW-YZ-Q5V"; */
+"VXW-YZ-Q5V.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZI2-Ym-zcX"; */
+"ZI2-Ym-zcX.text" = "Label";

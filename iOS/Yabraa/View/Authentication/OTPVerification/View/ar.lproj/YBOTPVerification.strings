@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "03:23"; ObjectID = "1LO-4X-w3y"; */
+"1LO-4X-w3y.text" = "03:23";
+
+/* Class = "UILabel"; text = "OTC Code"; ObjectID = "DWR-bI-DnR"; */
+"DWR-bI-DnR.text" = "رمز التحقق";
+
+/* Class = "UILabel"; text = "Send code reload in"; ObjectID = "Vvq-kg-XjY"; */
+"Vvq-kg-XjY.text" = "إرسال الكود في خلال";
+
+/* Class = "UIButton"; normalTitle = "Verify"; ObjectID = "ZZD-As-fqC"; */
+"ZZD-As-fqC.normalTitle" = "تحقق";
+
+/* Class = "UILabel"; text = "OTP Verification"; ObjectID = "chj-ki-gQi"; */
+"chj-ki-gQi.text" = "التحقق من رمز OTP";
+
+/* Class = "UILabel"; text = "Please check jhondoe@gmail email to see the verification code 📨"; ObjectID = "fhr-m4-FAh"; */
+"fhr-m4-FAh.text" = "يرجى التحقق من رسائلك لرؤية رمز التحقق";

@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+post_install do |installer|
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+  end
+end
+target 'Yabraa' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for Yabraa
+  pod 'IQKeyboardManagerSwift'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Shimmer'
+  pod 'SemiModalViewController'
+  pod 'Kingfisher'
+  pod 'RxDataSources'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'SwiftMessages'
+  pod 'RPCircularProgress'
+  pod 'SVPinView', '~> 1.0'
+  pod 'AppCenter/Analytics'
+  pod 'AppCenter/Crashes'
+  pod 'Hero'
+ pod 'MKOtpView'
+end

@@ -1,0 +1,35 @@
+
+/* Class = "UITextField"; placeholder = "+966"; ObjectID = "5UY-CS-FeA"; */
+"5UY-CS-FeA.placeholder" = "+966";
+
+/* Class = "UIButton"; normalTitle = "Log In As Guest"; ObjectID = "6BP-3y-Vpo"; */
+"6BP-3y-Vpo.normalTitle" = "الدخول كضيف";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "C4I-ce-pRy"; */
+"C4I-ce-pRy.normalTitle" = "تسجيل";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "IFk-Cb-tIv"; */
+"IFk-Cb-tIv.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "KAC-kX-j7h"; */
+
+"KAC-kX-j7h.text" = "الجوال";
+"CsT-Ts-G61.text" = "مرحبا";
+"Fqt-na-JDZ.placeholder" = "كلمة السر";
+"BCK-WX-czA.text" = "مرحبا الرجاء تسجيل الدخول اولا ";
+//"KAC-kX-j7h.text" = "الجوال";
+
+/* Class = "UILabel"; text = "Login with account"; ObjectID = "RGv-Og-tZv"; */
+"RGv-Og-tZv.text" = "Login with account";
+
+/* Class = "UITextField"; placeholder = "5XXXXXX"; ObjectID = "bs6-cs-yI8"; */
+"bs6-cs-yI8.placeholder" = "5XXXXXX";
+
+/* Class = "UIButton"; normalTitle = "Forgot password"; ObjectID = "g2g-Jw-bIv"; */
+"g2g-Jw-bIv.normalTitle" = "نسيت كلمة المرور";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "gun-Rk-aNj"; */
+"gun-Rk-aNj.text" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "Don’t have an account yet?"; ObjectID = "sWP-1a-RJf"; */
+"sWP-1a-RJf.text" = "ليس لديك حساب ؟";
