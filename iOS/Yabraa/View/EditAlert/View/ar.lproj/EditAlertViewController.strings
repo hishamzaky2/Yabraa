@@ -1,9 +1,0 @@
-
-/* Class = "UIButton"; normalTitle = "Edit Current Info"; ObjectID = "BA4-sn-pxF"; */
-"BA4-sn-pxF.normalTitle" = "تعديل البيانات";
-
-/* Class = "UILabel"; text = "Do You Want to edit the location ? "; ObjectID = "iEN-23-Ecb"; */
-"iEN-23-Ecb.text" = "هل تريد تعديل الموقع؟";
-
-/* Class = "UIButton"; normalTitle = "Edit Location"; ObjectID = "n1D-PD-YKw"; */
-"n1D-PD-YKw.normalTitle" = "تعديل الموقع ";
